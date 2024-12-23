@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cafeteria del Moi</title>
+        <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        
+        <header class="encabezado">
+            <div class="contenedor-navegacion">
+                <div class="contenido-navegacion contenedor">
+                    <div class="logo">
+                        <!-- logo de la cafeteria -->
+                        <h2>Coffee the <span class="amarillo">M</span><span class="azul">o</span><span class="rojo">i</span></h2>
+                    </div>
+                    <!-- navegacion y menu amburguesa -->
+                    <nav class="navegacion ocultar">
+                        <a href="#">Inicio</a>
+                        <a href="#">Sobre nosotros</a>
+                        <a href="#">Menú</a>
+                        <a href="#">Contactos</a>
+                    </nav>
+                    <div class="hamburguesa">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-header">
+                <div class="contenedor-encabezado">
+                    <div class="texto-encabezado">
+                        <h2>¡Bienvenido!</h2>
+                        <a href="#" class="btn bordes">nuestro menú</a>
+                    </div>
+                    <video autoplay loop muted>
+                        <source src="visual/Taza%20de%20cafe.mp4">
+                    </video>
+                </div>
+            </div>
+        </header>
+        
+        <div class="contenedor-nosotros contenedor">
+            <div class="texto-nosotros">
+                <p class="bienvenida">¡Bienvenido a!</p>
+                <h1>Coffee the Moi</h1>
+                <h2>¡Gracias por preferir el café colombiano!</h2>
+                <!-- texto -->
+                <p>
+                    Tenemos dos cosas en mente: Que disfrutes de un café a la altura de tus expectativas, y ser un puente de distribucion entro tú y los mejores productores poblanos.
+                </p>
+                <p>
+                    En <em>Coffee the Moi</em> ofecemos a nuestros clientes una expresiencia de sabor en cada taza. Cuidamos la seleccion y tostado de cada grano, para hacerlo llegar hasta tu hogar a precios justos.
+                </p>
+                <a href="#" class="btn btn-rojo">Contactar</a>
+            </div>
+            <!-- Primera seccion de imagenes de presentacion -->
+            <div class="imagenes-nosotros">
+                <div class="imagen1">
+                    <img data-src="visual/img/sobre-nosotros/tomando/08417eddca29315ac55b34f0834fbf24.jpg" alt="mujer tomando cafe">
+                </div>
+                <div class="imagen2">
+                    <img data-src="visual/img/cafe-capuchino/coffee-cappuccino-cup-wallpaper-preview.jpg" alt="cafe en un posillo">
+                    <img data-src="visual/img/sobre-nosotros/68f7b21b9819a53043338e2abe610a14.jpg" alt="mesero">
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Seccion del menu de bebidas -->
+        <section class="menu contenedor">
+            <h2 class="texto-bebidas">Cafés mas populares</h2>
+            <div class="botones-bebidas">
+                <button class="todos btn btn-naranja">Todos</button>
+                <button class="cafeAmericano btn btn-naranja">Ameriicano</button>
+                <button class="cafeCapuchino btn btn-naranja">Cappucchino</button>
+                <button class="cafeLeche btn btn-naranja">ConLeche</button>
+                <button class="cafeExpreso btn btn-naranja">Espresso</button>
+            </div>
+            <div class="bebidas">
+                <div class="bebida" data-bebida="cafeAmericano">
+                    <img data-src="visual/img/cafe-americano/americano1.jpg" alt="americano">
+                    <h2>Americano</h2>
+                    <p>El café americano es la bebida caliente ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div> 
+                <div class="bebida" data-bebida="cafeAmericano">
+                    <img data-src="visual/img/cafe-americano/americano2.jpg" alt="americano">
+                    <h2>Americano</h2>
+                    <p>El café americano es la bebida caliente ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeAmericano">
+                    <img data-src="visual/img/cafe-americano/americano3.jpg" alt="americano">
+                    <h2>Americano</h2>
+                    <p>El café americano es la bebida caliente ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeCapuchino">
+                    <img data-src="visual/img/cafe-capuchino/5bd0a2423ebac-wallpaper-preview.jpg" alt="capuchinno">
+                    <h2>Cappucchino</h2>
+                    <p>El café cappucchino es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeCapuchino">
+                    <img data-src="visual/img/cafe-capuchino/pexels-vidya-ram-6613497.jpg" alt="capuchinno">
+                    <h2>Cappucchino</h2>
+                    <p>El café cappucchino es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeCapuchino">
+                    <img data-src="visual/img/cafe-capuchino/istockphoto-505168330-170667a.jpg" alt="capuchinno">
+                    <h2>Cappucchino</h2>
+                    <p>El café cappucchino es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$3.500</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeLeche">
+                    <img data-src="visual/img/cafe-con-leche/solubilidad-cafe-leche-e1582409102832-800x400.jpg" alt="con leche">
+                    <h2>Con Leche</h2>
+                    <p>El café con leche es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeLeche">
+                    <img data-src="visual/img/cafe-con-leche/cafe-leche-propiedades-1024x631.jpg" alt="con leche">
+                    <h2>Con Leche</h2>
+                    <p>El café con leche es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeLeche">
+                    <img data-src="visual/img/cafe-con-leche/como-hacer-el-mejor-cafe-con-leche-en-casa-sin-maquina-y-con-espuma.jpg" alt="con leche">
+                    <h2>Con Leche</h2>
+                    <p>El café con leche es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeExpreso">
+                    <img data-src="visual/img/cafe-expreso/cafe-espresso.jpg" alt="espreso">
+                    <h2>Espresso</h2>
+                    <p>El café espresso es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeExpreso">
+                    <img data-src="visual/img/cafe-expreso/cafe-expresso-02-e1568084083582-1280x720.jpg" alt="espreso">
+                    <h2>Espresso</h2>
+                    <p>El café espresso es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+                <div class="bebida" data-bebida="cafeExpreso">
+                    <img data-src="visual/img/cafe-expreso/que-es-un-espresso.jpg" alt="espreso">
+                    <h2>Espresso</h2>
+                    <p>El café espresso es la bebida ideal para las personas que quieren tomar un delicioso café.</p>
+                    <div class="precio">
+                        <p>$5.000</p>
+                        <button><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="separador">
+            <div class="contenido-separador contenedor">
+                <h2>Café colombiano para empezar el día</h2>
+                <p>Empieza tu día con el sabor de nuestro exquisito café</p>
+                <a href="#" class="btn btn-naranja">Ordenar ahora</a>
+            </div>
+        </div>
+        
+        <section class="barista contenedor">
+            <h2>Barista ejecutivo</h2>
+            <div class="contenido-barista">
+                <div class="texto-barista">
+                <h3>
+                    “Que rico el olor del café y de los periódicos. Una buena taza de su negro licor, buen preparado, contiene tantos problemas y tantos poemas como una botella de tinta.” – Coffee the Moi.
+                </h3>
+                <p>
+                    Cuando la temporada de frío se aproxima un buen café se hace necesario, la cafeína hace que tengamos mucha más energía y vitalidad todo el día. Es de sobra conocimiento que el café tiene beneficios comprobados para la salud, además, preparar un buen café no tiene por qué ser complicado. 
+                </p>
+                <a href="#" class="btn btn-naranja">Leer Bíografia</a>
+            </div>
+            <div class="imagen-barista">
+                <img data-src="visual/barista.jpg" alt="fotografia del barista">
+            </div>
+            </div>
+        </section>
+        
+        <div class="formulario-contacto contenedor">
+            
+            <div class="informacion-contacto">
+                <h3>Contactanos</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Calle 15 Riohacha Colombia 440001</p>
+                <p><i class="fas fa-envelope"></i>Moises@gmail.com</p>
+                <p><i class="fas fa-phone-alt"> +57 3002043124</i></p>
+                <div class="redes-sociales">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                </div>
+            </div> 
+            
+            <form class="formulario">
+                <div class="input-formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Pedro" id="nombre">
+                </div>
+                <div class="input-formulario">
+                    <label for="apellidos">Apellido</label>
+                    <input type="text" placeholder="Chavez Hernandez" id="apellidos">
+                </div>
+                <div class="input-formulario">
+                    <label for="correo">Correo</label>
+                    <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+                </div>
+                <div class="input-formulario">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" placeholder="+57 301 421 3321" id="telefono">
+                </div>
+                <div class="input-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <div class="btn-formulario">
+                    <input type="submit" class="btn btn-naranja" value="Enviar">
+                </div>
+            </form>
+        </div>
+        
+        <div class="pie-pagina">
+            <div class="contenedor-piepagina contenedor">
+                <div class="info">
+                    <h3>Dirección</h3>
+                    <p>Calle 15 Riohacha Colombia 440001</p>
+                </div>
+                <div class="info">
+                    <h3>Días especiales</h3>
+                    <p>Sabados y Jueves 7am - 11pm</p>
+                    <p>+57 3002043124</p>
+                </div>
+                <div class="info">
+                    <h3>Horarios</h3>
+                    <p>Lunes - Domingo 7am - 11pm</p>
+                    <div class="redes-sociales redes-pie">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Noticias</h3>
+                    <p>Suscribete para recibir más noticias</p>
+                    <input type="email" placeholder="Tu correo">
+                    <input type="submit" class="btn btn-naranja" value="Suscribirse">
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>Todos los derechos reservados &copy; 2022 Coffee the Moi, desarrollado por Jairo Varón</p>
+        </footer>
+        
+        <script src="js/app.js"></script>
+        
+    </body>
+</html>
